@@ -35,3 +35,5 @@ Columns description:
 ## Community ##
 
 Feel free to extend the database, you can join me on https://twitter.com/Chabahk
+
+Discord link: https://discord.gg/N68JUdP3
