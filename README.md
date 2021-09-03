@@ -2,6 +2,8 @@
 
 Stats on maps project : one ranking proposition in **ranking.xlsx** with many stats, the global list is sorted by mythical counts, minimum rarity and average rarity. Other files contain occurences counts of diverse properties.
 
+This does not represent real efficiency, potential or uniqueness of your piece, this is just to find out about occurences and diversity of the pieces.
+
 ### Project details ###
 Project twitter: https://twitter.com/Maps_Proj
 
