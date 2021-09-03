@@ -1,6 +1,6 @@
 # mapsProjectStats
 
-Stats on maps project
+Stats on maps project, no ranking because could be determined by many ways
 
 
 Feel free to extend the database, you can join me on https://twitter.com/Chabahk
