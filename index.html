@@ -12,40 +12,72 @@
     <label for="tokenId">TokenId:</label>
     <input id="tokenId" type="number"/>
     <br/>
-    <p id="rankingLoaded"></p>
-    <table id="tableStats">
-        <caption>Stats</caption>
-        <tr>
-            <th scope="col"> ranking </th>
-            <th scope="col"> tokenId </th>
-            <th scope="col"> minRarity </th>
-            <th scope="col"> averageRarity </th>
-            <th scope="col"> sumRarity </th>
-            <th scope="col"> countsBelow10 </th>
-            <th scope="col"> countsBelow20 </th>
-            <th scope="col"> countsBelow50 </th>
-            <th scope="col"> spots </th>
-            <th scope="col"> countsOld </th>
-            <th scope="col"> countsMystic </th>
-            <th scope="col"> countsNew </th>
+    
+    <p id="spots"> </p>
+
+    <table id="tableStats" style="border: 1px solid #111">
+        <caption>Stats waypoints rarity</caption>
+        <tr style="border: 1px solid #111">
+            <th style="border: 1px solid #111" scope="col"> ranking </th>
+            <th style="border: 1px solid #111" scope="col"> tokenId </th>
+            <th style="border: 1px solid #111" scope="col"> minRarity </th>
+            <th style="border: 1px solid #111" scope="col"> averageRarity </th>
+            <th style="border: 1px solid #111" scope="col"> sumRarity </th>
+            <th style="border: 1px solid #111" scope="col"> countsBelow10 </th>
+            <th style="border: 1px solid #111" scope="col"> countsBelow20 </th>
+            <th style="border: 1px solid #111" scope="col"> countsBelow50 </th>
+            <th style="border: 1px solid #111" scope="col"> spots </th>
+            <th style="border: 1px solid #111" scope="col"> countsOld </th>
+            <th style="border: 1px solid #111" scope="col"> countsMystic </th>
+            <th style="border: 1px solid #111" scope="col"> countsNew </th>
         </tr>
-        <tr>
-            <td id="rankingField"></td>
-            <td id="tokenIdField"></td>
-            <td id="minRarityField"></td>
-            <td id="averageRarityField"></td>
-            <td id="sumRarityField"></td>
-            <td id="countsBelow10Field"></td>
-            <td id="countsBelow20Field"></td>
-            <td id="countsBelow50Field"></td>
-            <td id="spotsField"></td>
-            <td id="countsOldField"></td>
-            <td id="countsMysticField"></td>
-            <td id="countsNewField"></td>
+        <tr style="border: 1px solid #111">
+            <td style="border: 1px solid #111; text-align:'center'" id="rankingField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="tokenIdField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="minRarityField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="averageRarityField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="sumRarityField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsBelow10Field"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsBelow20Field"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsBelow50Field"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="spotsField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsOldField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsMysticField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsNewField"></td>
         </tr>
     </table>
-
-    <p id="spots"> </p>
+    
+    <table id="tableStats" style="border: 1px solid #111">
+        <caption>Stats waypoints rarity</caption>
+        <tr style="border: 1px solid #111">
+            <th style="border: 1px solid #111" scope="col"> ranking </th>
+            <th style="border: 1px solid #111" scope="col"> tokenId </th>
+            <th style="border: 1px solid #111" scope="col"> minRarity </th>
+            <th style="border: 1px solid #111" scope="col"> averageRarity </th>
+            <th style="border: 1px solid #111" scope="col"> sumRarity </th>
+            <th style="border: 1px solid #111" scope="col"> countsBelow10 </th>
+            <th style="border: 1px solid #111" scope="col"> countsBelow20 </th>
+            <th style="border: 1px solid #111" scope="col"> countsBelow50 </th>
+            <th style="border: 1px solid #111" scope="col"> spots </th>
+            <th style="border: 1px solid #111" scope="col"> countsOld </th>
+            <th style="border: 1px solid #111" scope="col"> countsMystic </th>
+            <th style="border: 1px solid #111" scope="col"> countsNew </th>
+        </tr>
+        <tr style="border: 1px solid #111">
+            <td style="border: 1px solid #111; text-align:'center'" id="rankingField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="tokenIdField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="minRarityField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="averageRarityField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="sumRarityField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsBelow10Field"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsBelow20Field"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsBelow50Field"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="spotsField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsOldField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsMysticField"></td>
+            <td style="border: 1px solid #111; text-align:'center'" id="countsNewField"></td>
+        </tr>
+    </table>
 
     <br/>
     <br/>
