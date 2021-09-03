@@ -1,4 +1,4 @@
-# mapsProjectStats
+# MapsProject Stats
 
 Stats on maps project, find one ranking view in ranking.xlsx, sorted by mythical counts, minimum rarity, average rarity
 
