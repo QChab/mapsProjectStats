@@ -18,7 +18,7 @@ New OS (restored map) : https://opensea.io/collection/maps-restored
 ## Ranking details ##
 Rarity is refering below to the nb of occurences of a spot.
 
-Columns description:
+#### Columns description for rarity ranking ####
 - **tokenId**
 - **minRarity**: lowest rarity value of a spot in the map
 - **averageRarity**;
@@ -32,6 +32,18 @@ Columns description:
 - **countsNew**: nb of spots with "New"
 - **ranking**: global position sorted by mythical counts, miminum rarity and average rarity
 
+
+#### Columns description for distance rankings ####
+- **length**: sum of all the distances of the path
+- **rankMaxLength**: rank for the greater length
+- **rankMinLength**: rank for the smaller length
+- **minDistance**: minimum distance on the path between two connected waypoints
+- **rankMinDistance**: rank for the smallest distance between two connected waypoints
+- **maxDistance**: minimum distance on the path between two connected waypoints
+- **rankMaxDistance**: rank for the longest distance between two connected waypoints
+- **spots**: nb of waypoints
+- **journeyDuration**: length + spots * 10, to roughly evaluate the endurance needed for the map
+- **rankJourneyDuration**: ranked by the highest journey duration, the higher could be the better for having more opportunities during the journey but could require more stamina
 
 ## Community ##
 
