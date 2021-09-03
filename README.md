@@ -2,7 +2,7 @@
 
 This does not represent real efficiency, potential or uniqueness of your piece, this is just to find out about occurences and diversity of the spots in the pieces.
 
-Stats on maps project : one ranking proposition in **ranking.xlsx** with many stats, the global list is sorted by mythical counts, minimum rarity and average rarity. Other files contain occurences counts of diverse properties.
+Stats on maps project : one ranking proposition in https://qchab.github.io/mapsProjectStats/ with many stats, the global list is sorted by mythical counts, minimum rarity and average rarity. Other files contain occurences counts of diverse properties. Find the complete list in **stats/ranking.{json|csv|xlsx}**
 
 ### Project details ###
 Project twitter: https://twitter.com/Maps_Proj
@@ -37,3 +37,5 @@ Columns description:
 Feel free to expand the database, you can join me on https://twitter.com/Chabahk
 
 Discord link: https://discord.gg/N68JUdP3
+
+If you feel like donating : ETH 0x6829AF648577DFb99827aD4Aa494DA7A1898eC19
