@@ -35,11 +35,11 @@
             <td id="sumRarityField"></td>
             <td id="countsBelow10Field"></td>
             <td id="countsBelow20Field"></td>
-            <td id="countBelow50Field"></td>
+            <td id="countsBelow50Field"></td>
             <td id="spotsField"></td>
             <td id="countsOldField"></td>
-            <td id="counstMysticField"></td>
-            <td id="counstNewField"></td>
+            <td id="countsMysticField"></td>
+            <td id="countsNewField"></td>
         </tr>
     </table>
     <br/>
@@ -77,11 +77,11 @@
         document.getElementById('sumRarityField').innerHTML = stats.sumRarity 
         document.getElementById('countsBelow10Field').innerHTML = stats.countsBelow10 
         document.getElementById('countsBelow20Field').innerHTML = stats.countsBelow20 
-        document.getElementById('countBelow50Field').innerHTML = stats.countBelow50 
+        document.getElementById('countsBelow50Field').innerHTML = stats.countsBelow50 
         document.getElementById('spotsField').innerHTML = stats.spots 
         document.getElementById('countsOldField').innerHTML = stats.countsOld 
-        document.getElementById('counstMysticField').innerHTML = stats.counstMystic 
-        document.getElementById('counstNewField').innerHTML = stats.counstNew 
+        document.getElementById('countsMysticField').innerHTML = stats.countsMystic 
+        document.getElementById('countsNewField').innerHTML = stats.countsNew 
 
     rankingInMemory.push(stats)
         document.getElementById('previousSearches').innerHTML = JSON.stringify(rankingInMemory);
