@@ -3,6 +3,8 @@
 Stats on maps project : one ranking proposition in **ranking.xlsx** with many stats, the global list is sorted by mythical counts, minimum rarity and average rarity. Other files contain occurences counts of diverse properties.
 
 ### Project details ###
+Project twitter: https://twitter.com/Maps_Proj
+
 Contract address of maps : https://etherscan.io/address/0xd81f156bbf7043a22d4ce97c0e8ca11d3f4fb3cc
 
 OS: https://opensea.io/collection/mapsproject
