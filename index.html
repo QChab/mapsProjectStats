@@ -131,7 +131,7 @@
 
         const spots = allMaps[parseInt(stats.tokenId) - 1]
         console.log(allMaps[0])
-        document.getElementById('spots').innerHTML = spots.map((spot) => `${spot} (${spotOccurences})`[spot]).join(' -> ');
+        document.getElementById('spots').innerHTML = spots.map((spot) => `${spot} (${spotOccurences[spot]})`).join(' -> ');
     });
 
     function getTokenIdStats (tokenId) {
