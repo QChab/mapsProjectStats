@@ -12,3 +12,5 @@ Contract address of maps : https://etherscan.io/address/0xd81f156bbf7043a22d4ce9
 OS: https://opensea.io/collection/mapsproject
 
 
+New OS (restored map) : https://opensea.io/collection/maps-restored
+
