@@ -88,7 +88,7 @@
     });
 
     function getTokenIdStats (tokenId) {
-        return allRankings.find((r) => r.tokenId === tokenId)
+        return allRankings.find((r) => r.tokenId === parseInt(tokenId))
         //return allRankings[parseInt(tokenId) - 1]
     }
 
