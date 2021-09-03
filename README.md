@@ -3,6 +3,9 @@
 Stats on maps project, no ranking because could be determined by many ways
 
 
+Find one ranking view in tryRanking.xlsx, sorted by mythical counts, minimum rarity, average rarity
+
+
 Feel free to extend the database, you can join me on https://twitter.com/Chabahk
 
 
