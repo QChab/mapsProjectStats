@@ -20,6 +20,9 @@ Rarity is refering below to the nb of occurences of a spot.
 
 #### Columns description for rarity ranking ####
 - **tokenId**
+- **ranking**: global position sorted by mythical counts, miminum rarity and average rarity
+- **statisticalScore**: score computed with the sum of 9750/occurences
+- **statisticalRanking**: rank based on statisticalScore
 - **minRarity**: lowest rarity value of a spot in the map
 - **averageRarity**;
 - **sumRarity**: sum of all rarity in the spots on the map 
@@ -30,7 +33,6 @@ Rarity is refering below to the nb of occurences of a spot.
 - **countsOld**: nb of spots with "Old" 
 - **countsMystic**: nb of spots with "Mystic" 
 - **countsNew**: nb of spots with "New"
-- **ranking**: global position sorted by mythical counts, miminum rarity and average rarity
 
 
 #### Columns description for distance rankings ####
